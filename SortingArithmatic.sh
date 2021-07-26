@@ -10,3 +10,5 @@ y=$[(($a * $b + $c))*$(($parttimehrs))]
 echo "work in hours" $y
 z=$(($c + $a/$b))
 echo "output of equation" $z
+r=$(($a%$b+$c))
+echo "output of equation " $r
