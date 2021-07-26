@@ -8,3 +8,5 @@ echo "output of equation " $x
 parttimehrs=8
 y=$[(($a * $b + $c))*$(($parttimehrs))]
 echo "work in hours" $y
+z=$(($c + $a/$b))
+echo "output of equation" $z
