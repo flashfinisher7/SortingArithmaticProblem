@@ -12,3 +12,9 @@ z=$(($c + $a/$b))
 echo "output of equation" $z
 r=$(($a%$b+$c))
 echo "output of equation " $r
+declare -A  dictionary
+dictionary[key]=$x
+dictionary[key1]=$y
+dictionary[key2]=$z
+dictionary[key3]=$r
+echo ${dictionary[@]}
